@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Converting true to other types:</p>
+
+<p id="demo" style="font-family:courier"></p>
+
+<script>
+var x = true;
+document.getElementById("demo").innerHTML =
+"Number : " + Number(x) + "<br>" +
+"String : " + String(x) + "<br>" +
+"Boolean: " + Boolean(x);
+</script>
+
+</body>
+</html>
